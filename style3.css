@@ -293,17 +293,17 @@
   }
 
 .box-loading{
-    width: 90%;  /* Width of the box */
-    height: 30px; /* Height of the box */
-     /* Box background */
+    width: 90%;  
+    height: 30px;
+     
     border-radius: 20px;
     margin: 15px ;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Ensure progress bar starts from left */
+    justify-content: flex-start; 
     background-color:grey;
     overflow: hidden;
-    cursor: pointer; /* Optional: shows pointer on hover */
+    cursor: pointer; 
 }
 
 .progress-bar {
