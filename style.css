@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body{
+    width:100%;
+}
+section{
+    padding-top: 8%; 
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    height:100%;
+    margin: 0;
+}
+@media (max-width: 768px) {
+    section {
+        width: 100%; 
+        margin: 0;
+        padding: 0 10px;
+    }
+}
+@media (max-width: 480px) {
+    section {
+        width: 100%; 
+        margin: 0;
+        padding: 0 10px;
+    }
+}
+
+
+.navbar2{
+    position: fixed;
+    top:1;
+    height:6vh;
+    background-color:black;
+    padding-top: 15px;
+    padding-right:15px ;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 100;
+}
+.anchor1{
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: 0.7s;
+}
+.anchor1:hover{
+    color:#0ef;
+}
+.head1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-weight: 650;
+    padding: 5px;
+   
+}
+
+.imageback{
+    
+    width:13vw;
+    height:200px;
+    box-shadow: 0 0 25px var(#0ef);
+    border-radius: 50%;
+   
+}
+
+
+.photo{
+    height:160px;
+    
+}
+.image{
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+.icons{
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.icon{
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    padding: 10px;
+    color:#0ef;
+    width: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in;
+}
+.icon:hover{
+    
+    width: 15px;
+    background-color: #0ef;
+    color: white;
+    padding-top: 10px;
+    box-shadow: #0ef;
+    
+}
+.button{
+    color:#0ef;
+    transition: 0.3s ease-in;
+    border: 2px solid #0ef;
+    border-radius: 20px;
+    margin-top: 12px;   
+    padding: 10px;
+    background-color: rgb(44, 44, 44);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button:hover{
+    background-color: #0ef;
+    color:black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+.para2{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    text-align:center;
+}
+.head2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0ef;
+    font-weight: 650;
+    padding: 5px; 
+    text-align: center;
+}
+.logo{
+    height: 60px;
+    padding: 10px;
+}
+.head3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0ef;
+    font-weight: 650;
+    padding: 5px; 
+    text-align: center; 
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    
+}
+.skills2{
+    margin: 10px;
+    margin-right: 6px;
+    padding: 10px;
+    block-size: auto;  
+    width: 300px;
+}
+.longimages{
+    width:60px
+}
+
+.skills2:hover{
+    border: 2px #0ef;
+    background-color: black;
+    transition: 1s; 
+    height :450px;
+    block-size: 300px;
+    width: 320px;
+}
+.head4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0ef;
+    font-weight: 650;
+    padding: 5px; 
+    text-align: center; 
+    font-size: 50px;
+}
+.head5{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0ef;
+    font-weight: 650;
+    padding: 5px; 
+    
+   
+}
+.para3{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+  
+}
+
+.screenshot{
+    height: 300px;
+    width:600px;
+    margin-left: 15px;
+
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.placeholder{
+    height: 50px;
+    padding-bottom: 60px;
+    width: 270px;
+    margin-left: 590px;
+}
+span{
+    position:relative;
+    display: inline-block;
+    color: transparent;
+    animation: display-text 8s linear infinite;
+    -webkit-text-stroke: .7px #0ef;
+    animation-delay: calc(-4s * var(--i));
+}
+@keyframes display-text{
+    25%,
+    100%{
+        display:none;
+    }
+}
+.imageback:hover{
+    box-shadow: 0 0 50px var(#0ef),
+                 0 0 100px var(#0ef);
+}
