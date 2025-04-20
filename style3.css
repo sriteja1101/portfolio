@@ -273,6 +273,13 @@
   .parent {
     width: 90%;
   }
+  @media (max-width: 600px) {
+    .button {
+      font-size: 14px;
+      padding: 10px;
+      width: 90%;
+    }
+  }
 
 .box-loading{
     width: 90%;  /* Width of the box */
